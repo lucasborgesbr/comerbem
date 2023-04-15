@@ -1,0 +1,16 @@
+/* Add here all your CSS customizations */
+.chat-box-sent {
+    background-color: #D7FFD7;
+    border-radius: 20px 20px;
+    float: right;
+    text-align: right;
+    padding-inline: 5px;
+}
+
+.chat-box-received {
+    background-color: #f5e2e2;
+    border-radius: 20px 20px;
+    float: left;
+    text-align: left;
+    padding-inline: 5px;
+}

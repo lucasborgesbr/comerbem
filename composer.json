@@ -1,0 +1,38 @@
+{
+  "name": "bellemeireles98/comerbem",
+  "description": "Sistema de decisão de onde comer",
+  "minimum-stability": "stable",
+  "type": "project",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Isabelle de Cassia Meireles Borges",
+      "email": "bellemeireles98@gmail.com",
+      "role": "Developer",
+      "homepage": "https://projecao.br/"
+    },
+    {
+      "name": "Daniella Costa Nunes",
+      "email": "daniellacn2003@gmail.com",
+      "role": "Developer",
+      "homepage": "https://projecao.br/"
+    }
+  ],
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "autoload": {
+    "files": [
+      "boot/config.php",
+      "boot/functions.php"
+    ]
+  },
+  "require": {
+    "php": "^7.4",
+    "ext-pdo": "^7.4",
+    "ext-json": "*",
+    "pgrimaud/instagram-user-feed": "6.15.*",
+    "matthiasmullie/minify": "^1.3",
+    "ext-curl": "*"
+  }
+}
